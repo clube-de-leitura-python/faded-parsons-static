@@ -1,4 +1,3 @@
-Four Fours Puzzle
 def fourfours():
     """
     >>> fourfours()
