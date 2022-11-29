@@ -31,16 +31,21 @@ problem_description: |
   
 code_lines: |
   def fourfours():  #0given
-  !BLANK - !BLANK 
-  !BLANK / !BLANK 
-  !BLANK / !BLANK - !BLANK 
-  (!BLANK - !BLANK) / !BLANK 
-  !BLANK / !BLANK + !BLANK / !BLANK 
-  !BLANK * !BLANK + !BLANK / !BLANK 
-  !BLANK + (!BLANK + !BLANK) / !BLANK 
-  !BLANK * (!BLANK + !BLANK) / !BLANK 
-  !BLANK + (!BLANK  - !BLANK ) / !BLANK
+  !BLANK - !BLANK
+  !BLANK / !BLANK
+  !BLANK / !BLANK - !BLANK    
+  (!BLANK - !BLANK) / !BLANK  
+  !BLANK + !BLANK + !BLANK - !BLANK 
+  !BLANK / !BLANK + !BLANK / !BLANK  
+  !BLANK * !BLANK - !BLANK / !BLANK 
+  !BLANK + !BLANK + !BLANK / !BLANK 
+  !BLANK + !BLANK * !BLANK  / !BLANK   
+  !BLANK + (!BLANK + !BLANK) / !BLANK  
+  !BLANK * (!BLANK + !BLANK) / !BLANK  
+  !BLANK + (!BLANK  - !BLANK ) / !BLANK 
   (!BLANK * !BLANK  + !BLANK ) / !BLANK 
+  (!BLANK * !BLANK  - !BLANK ) / !BLANK 
+  (!BLANK + !BLANK  + !BLANK ) / !BLANK  
   return
   
 test_fn: fourfours
