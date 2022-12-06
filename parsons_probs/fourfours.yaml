@@ -1,0 +1,51 @@
+problem_name: fourfours
+
+problem_description: |
+  <code>add_in_range</code> using only four fours write from 0 to 10.<br>
+  <pre><code>
+  >>> fourfours()  # 44 - 44
+  0
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  >>> fourfours()  # 44 / 44
+  0
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  </code></pre>
+  
+code_lines: |
+  def fourfours():  #0given
+  !BLANK - !BLANK
+  !BLANK / !BLANK
+  !BLANK / !BLANK - !BLANK    
+  (!BLANK - !BLANK) / !BLANK  
+  !BLANK + !BLANK + !BLANK - !BLANK 
+  !BLANK / !BLANK + !BLANK / !BLANK  
+  !BLANK * !BLANK - !BLANK / !BLANK 
+  !BLANK + !BLANK + !BLANK / !BLANK 
+  !BLANK + !BLANK * !BLANK  / !BLANK   
+  !BLANK + (!BLANK + !BLANK) / !BLANK  
+  !BLANK * (!BLANK + !BLANK) / !BLANK  
+  !BLANK + (!BLANK  - !BLANK ) / !BLANK 
+  (!BLANK * !BLANK  + !BLANK ) / !BLANK 
+  (!BLANK * !BLANK  - !BLANK ) / !BLANK 
+  (!BLANK + !BLANK  + !BLANK ) / !BLANK  
+  return
+  
+test_fn: fourfours
