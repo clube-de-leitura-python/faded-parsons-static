@@ -1,17 +1,35 @@
 problem_name: fourfours
 
 problem_description: |
-  <code>fourfours</code> using only four fours write from 0 to 3.<br>
+  <code>fourfours</code> using only four fours write from 0 to 10.<br>
   <pre><code>
   >>> fourfours()  # 44 - 44
   0
   1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
   </code></pre>
   
 code_lines: |
   def fourfours():  #0given
-  !BLANK - !BLANK
-  !BLANK // !BLANK
+  print(!BLANK - !BLANK)
+  print(!BLANK // !BLANK)
+  print(!BLANK // !BLANK + !BLANK // !BLANK)
+  print(!BLANK + !BLANK + !BLANK) // !BLANK)
+  print(!BLANK + (!BLANK - !BLANK) // !BLANK)
+  print(!BLANK * !BLANK + !BLANK) // !BLANK)
+  print(!BLANK + (!BLANK + !BLANK) // !BLANK)
+  print(!BLANK + !BLANK - !BLANK // !BLANK)
+  print(!BLANK + !BLANK + !BLANK - !BLANK)
+  print(!BLANK + !BLANK + !BLANK // !BLANK)
+  print((!BLANK - !BLANK) // !BLANK)
   return
   
 test_fn: fourfours
