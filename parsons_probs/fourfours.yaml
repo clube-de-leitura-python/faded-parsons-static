@@ -31,8 +31,8 @@ problem_description: |
   
 code_lines: |
   def fourfours():  #0given
-  !BLANK - !BLANK
-  !BLANK / !BLANK
+  print(!BLANK - !BLANK)
+  print(!BLANK / !BLANK)
   !BLANK / !BLANK - !BLANK    
   (!BLANK - !BLANK) / !BLANK  
   !BLANK + !BLANK + !BLANK - !BLANK 
