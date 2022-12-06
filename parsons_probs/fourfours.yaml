@@ -6,16 +6,12 @@ problem_description: |
   >>> fourfours()  # 44 - 44
   0
   1
-  2
-  3
   </code></pre>
   
 code_lines: |
   def fourfours():  #0given
   print(!BLANK - !BLANK)
   print(!BLANK // !BLANK)
-  print(!BLANK / !BLANK + !BLANK / !BLANK)
-  print((!BLANK + !BLANK  + !BLANK ) / !BLANK)
   return
   
 test_fn: fourfours
