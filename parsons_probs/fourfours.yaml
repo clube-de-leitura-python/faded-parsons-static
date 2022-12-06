@@ -1,7 +1,7 @@
 problem_name: fourfours
 
 problem_description: |
-  <code>fourfours</code> using only four fours write from 0 to 3.<br>
+  <code>fourfours</code> using only four fours write from 0 to 10.<br>
   <pre><code>
   >>> fourfours()  # 44 - 44
   0
