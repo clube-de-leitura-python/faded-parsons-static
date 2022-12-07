@@ -24,7 +24,7 @@ code_lines: |
   print(!BLANK // !BLANK + !BLANK // !BLANK)
   print(!BLANK + !BLANK + !BLANK) // !BLANK)
   print(!BLANK + (!BLANK - !BLANK) // !BLANK)
-  print(!BLANK * !BLANK + !BLANK) // !BLANK)
+  print((!BLANK * !BLANK + !BLANK) // !BLANK)
   print(!BLANK + (!BLANK + !BLANK) // !BLANK)
   print(!BLANK + !BLANK - !BLANK // !BLANK)
   print(!BLANK + !BLANK + !BLANK - !BLANK)
